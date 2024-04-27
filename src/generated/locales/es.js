@@ -13,10 +13,10 @@
 'h3900c145cc16a364': html`Mi nombre es <span class="fw-bold">Cahya Juniar Syam.</span>`,
 's12b61d47ebe90f26': `Escriba historias, comparta inspiración: ¡descubra, comparta e inspírese con cada historia aquí!`,
 's264c47fa0ee90c13': `Los invitamos a explorar, sumergirse e inspirarse mutuamente a través del poder de las palabras y las imágenes.`,
+'s3677ea06dbc3c522': `Este sitio web fue creado para cumplir con el envío de Dicoding Intermediate Front-end Web Developer. Gracias por visitar esta página web.`,
 's5b979683d1816069': `Seleccione el idioma :`,
 'sdcc4c131e03049b4': `Crear historia`,
 'se957aac89298c890': `Acerca de mí`,
 'sf6dd6fff0d73c9b7': `Detalle de la historia`,
-'s3677ea06dbc3c522': `This website was created to fulfill submission on Dicoding Intermediate Front-end Web Developer. Thank you for visiting this website.`,
     };
   

@@ -4,10 +4,13 @@ const CreateStory = {
     },
 
     _initialListener() {
-        const createForm = document.querySelector('#create-form');
+        const createForm = document.querySelector('form');
         createForm.addEventListener('submit', (e) => {
-            e.preventDefault();
-            this._sendData();
+            if (!createForm.checkValidity()) {
+                e.preventDefault();
+                this._sendData();
+            }
+            createForm.classList.add('was-validated');
         },
             false
         );
@@ -26,7 +29,7 @@ const CreateStory = {
 
         return {
             description: descInput.value,
-            photoUrl: imgInput.value,
+            photoUrl: imgInput.files[0],
         };
     },
 

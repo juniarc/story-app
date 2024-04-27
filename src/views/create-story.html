@@ -12,9 +12,15 @@
     <main>
         <div class="container d-flex flex-column align-items-center bg-altOrange" id="cs-container" >
             <p class="text-center" id="form-title">Create Story</p>
-            <form class="d-flex flex-column align-items-center" id="create-form">
-                <textarea class="form-control" id="input-description" rows="5" maxlength="200" placeholder="Write description here" required></textarea>
-                <input class="form-control" type="text" name="" id="input-img" placeholder="Url image link" required>
+            <form class="d-flex flex-column align-items-center" id="create-form" novalidate>
+                <div>
+                    <textarea class="form-control" id="input-description" rows="5" maxlength="200" placeholder="Write description here" required></textarea>
+                    <div class="invalid-feedback">Please fill a description</div>
+                </div>
+                <div>
+                    <input class="form-control" type="file" name="" id="input-img" placeholder="Url image link" required>
+                    <div class="invalid-feedback">Please choose a photo</div>
+                </div>
                 <button type="submit" id="form-button">Submit</button>
             </form>
         </div>

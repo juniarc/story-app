@@ -13,6 +13,14 @@ class LocalePicker extends LitElement {
             font-family: 'Open Sans';
         }
     }
+
+    @media (max-width: 575.98px) {
+      #picker-container {
+        label {
+          font-size: 0.75rem;
+        }
+      }
+  }
     `
   constructor() {
     super();

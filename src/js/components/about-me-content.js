@@ -19,7 +19,7 @@ class AboutMeContent extends LitWithoutShadowDom {
                 <div id="about-me-title">
                     <p class="text-start">${msg('About Me')}</p>
                 </div>
-                <div class="container d-flex justify-content-between align-items-end" id="about-me-description">
+                <div class="container d-flex justify-content-between" id="about-me-description">
                     <div id="description-left-container">
                         <div id="line"></div>
                         <div id="text">

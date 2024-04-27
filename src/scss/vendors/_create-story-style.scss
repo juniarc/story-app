@@ -13,7 +13,7 @@ header {
     margin-top: 54px;
     
     width: 560px;
-    height: 424px;
+    height: fit-content;
 
     border: 3px solid black;
     border-radius: 10px;
@@ -37,8 +37,6 @@ header {
         #input-img {
             @include form-format;
 
-            padding: 5px 20px;
-
             margin-top: 20px;
         }
 
@@ -61,6 +59,42 @@ header {
                 background-color: #303C6C;
                 color: white;
             }
+        }
+    }
+}
+
+@media (max-width: 575.98px) {
+    #cs-container {
+        margin-top: 20px;
+
+        width: 400px;
+        height: fit-content;
+
+        #form-title {
+            font-size: 1rem;
+        }
+
+        form {
+            #input-description {
+                font-size: 0.75rem;
+                height: fit-content;
+                width: 350px
+            }
+
+            #input-img {
+                width: 350px;
+                font-size: 0.75rem;
+            }
+
+            #form-button {
+                font-size: 0.75rem;
+            }
+        }
+    }
+
+    .create-story-footer {
+        p {
+            font-size: 0.75rem;
         }
     }
 }

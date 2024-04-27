@@ -14,10 +14,6 @@
   <source>I was born in <x id="0" equiv-text="&lt;span class=&quot;fw-bold&quot;&gt;"/>Garut, June 17 2000.<x id="1" equiv-text="&lt;span class=&quot;fw-bold&quot;&gt;&lt;/span&gt;&lt;/span&gt;"/></source>
   <target>nací en <x id="0" equiv-text="&lt;span class=&quot;fw-bold&quot;&gt;"/>Garut, junio 17 2000.<x id="1" equiv-text="&lt;span class=&quot;fw-bold&quot;&gt;&lt;/span&gt;&lt;/span&gt;"/></target>
 </trans-unit>
-<trans-unit id="s18ce3e8d90e2df76">
-  <source>This website was created to fulfill submission on Dicoding Intermediate Front-end Web Developer. Thank you for visiting this website.</source>
-  <targetEste sitio web fue creado para cumplir con el envío de Dicoding Intermediate Front-end Web Developer. Gracias por visitar esta página web.></target>
-</trans-unit>
 <trans-unit id="sdcc4c131e03049b4">
   <source>Create Story</source>
   <target>Crear historia</target>
@@ -37,6 +33,10 @@
 <trans-unit id="s5b979683d1816069">
   <source>Select language : </source>
   <target>Seleccione el idioma :</target>
+</trans-unit>
+<trans-unit id="s3677ea06dbc3c522">
+  <source>This website was created to fulfill submission on Dicoding Intermediate Front-end Web Developer. Thank you for visiting this website.</source>
+  <target>Este sitio web fue creado para cumplir con el envío de Dicoding Intermediate Front-end Web Developer. Gracias por visitar esta página web.</target>
 </trans-unit>
 </body>
 </file>

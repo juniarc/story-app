@@ -9,15 +9,10 @@
 <trans-unit id="h3900c145cc16a364">
   <source>My name is <x id="0" equiv-text="&lt;span class=&quot;fw-bold&quot;&gt;"/>Cahya Juniar Syam.<x id="1" equiv-text="&lt;/span&gt;"/></source>
   <target>Nama Saya <x id="0" equiv-text="&lt;span class=&quot;fw-bold&quot;&gt;"/>Cahya Juniar Syam.<x id="1" equiv-text="&lt;/span&gt;"/></target>
-
 </trans-unit>
 <trans-unit id="h194ad38355bc1869">
   <source>I was born in <x id="0" equiv-text="&lt;span class=&quot;fw-bold&quot;&gt;"/>Garut, June 17 2000.<x id="1" equiv-text="&lt;span class=&quot;fw-bold&quot;&gt;&lt;/span&gt;&lt;/span&gt;"/></source>
   <target>Saya lahir di <x id="0" equiv-text="&lt;span class=&quot;fw-bold&quot;&gt;"/>Garut, Juni 17 2000.<x id="1" equiv-text="&lt;span class=&quot;fw-bold&quot;&gt;&lt;/span&gt;&lt;/span&gt;"/></target>
-</trans-unit>
-<trans-unit id="s18ce3e8d90e2df76">
-  <source>This website was created to fulfill submission on Dicoding Intermediate Front-end Web Developer. Thank you for visiting this website.</source>
-  <target>Website ini dibuat untuk memenuhi submission pada Dicoding Intermediate Front-end Web Developer. Terima kasih telah mengunjungi situs web ini.</target>
 </trans-unit>
 <trans-unit id="sdcc4c131e03049b4">
   <source>Create Story</source>
@@ -37,7 +32,11 @@
 </trans-unit>
 <trans-unit id="s5b979683d1816069">
   <source>Select language : </source>
-  <target></target>
+  <target/>
+</trans-unit>
+<trans-unit id="s3677ea06dbc3c522">
+  <source>This website was created to fulfill submission on Dicoding Intermediate Front-end Web Developer. Thank you for visiting this website.</source>
+  <target>Website ini dibuat untuk memenuhi submission pada Dicoding Intermediate Front-end Web Developer. Terima kasih telah mengunjungi situs web ini.</target>
 </trans-unit>
 </body>
 </file>

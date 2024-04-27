@@ -17,6 +17,13 @@ class PosterImage extends LitElement {
             box-shadow: 7px 8px black;
             background: #F4976C;
         }
+    } 
+    
+    @media (max-width: 575.98px) {
+        #imageContent {
+            width: 116px;
+            height: 135px;
+        }
     }
     `
     render() {

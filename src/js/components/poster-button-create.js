@@ -38,13 +38,18 @@ class PosterButtonCreate extends LitElement {
                 text-decoration: none;
             }
         }
+        @media (max-width: 575.98px) {
+            #btnCreateStory {
+                font-size: 0.75rem;
+                padding: 10px;
+            }
+        }
     `
 
     render() {
         return html`
         <button id="btnCreateStory">
             <a href="/create-story.html">${msg('Create Story')}</a>
-
         </button>
         `
     }
