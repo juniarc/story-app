@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= htmlWebpackPlugin.options.title %> | Story App</title>
+</head>
+<body>
+    <header>
+        <custom-navigation></custom-navigation>
+    </header>
+    <main>
+        <div class="container d-flex flex-column align-items-center bg-altOrange" id="cs-container" >
+            <p class="text-center" id="form-title">Create Story</p>
+            <form class="d-flex flex-column align-items-center" id="create-form">
+                <textarea class="form-control" id="input-description" rows="5" maxlength="200" placeholder="Write description here" required></textarea>
+                <input class="form-control" type="text" name="" id="input-img" placeholder="Url image link" required>
+                <button type="submit" id="form-button">Submit</button>
+            </form>
+        </div>
+    </main>
+    <footer class="create-story-footer">
+        <locale-picker></locale-picker>
+        <custom-footer></custom-footer>
+    </footer>
+</body>
+</html>

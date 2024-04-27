@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@mixin box-config {
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 7px 8px black;
+}
+
+@mixin font-title {
+    font-weight: 900;
+}
+
+header {
+    .navbar {
+        border-bottom: 3px solid black;
+    }
+    
+    #createStory {
+        border: 2px solid black;
+        border-radius: 10px;
+        cursor: pointer;
+    
+        &:hover{
+            background-color: white;
+        }
+    }
+    
+    #aboutMe {
+        border: 0px;
+        cursor: pointer;
+        &:hover {
+            border-bottom: 2px solid black;
+        }
+    }
+
+    #title {
+        @include font-title;
+    }
+}
+
+#poster{
+    width: 100%;
+    height: 470px;
+    background-color: #FBE8A6;
+    padding: 60px 100px;
+
+    gap: 134px;
+
+    border-bottom: 3px solid black;
+
+    #textContent {
+        .text-1 {
+            font-weight: 900;
+            font-size: 2rem;
+        }
+        .text-2 {
+            font-family: 'Open Sans';
+            font-size: 1rem;
+        }
+    }
+    
+    #imageContent {
+        width: 316px;
+        height: 335px;
+
+        #imgPoster {
+            @include box-config;
+        }
+    }
+}
+
+#content {
+    #containerTitle{
+        p {
+            @include font-title;
+            font-size: 2rem;
+            border-bottom: 3px solid black;
+            padding: 21px 35px;
+            margin-top: 28px;
+            margin-bottom: 58px;
+        }
+    }
+    #story-list {
+        width: 100%;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 21px;
+
+        padding: 0 100px;
+        
+        
+        #story-item {
+            @include box-config;
+            
+            width: 345px;
+            height: 359px;
+            padding: 20px;
+
+            background-color: white;
+
+            cursor: pointer;
+            
+            p{
+                margin: 0;
+            }
+
+            #name {
+                display: inline;
+                width: 100%;
+                margin-top: 20px;
+                font-weight: 700;
+            }
+
+            #description {
+                display: inline;
+                width: 100%;
+                max-height: 44px;
+                margin-top: 20px;
+                font-family: 'Open Sans';
+            }
+
+            #imgContainer {
+                width: 289px;
+                height: 215px;
+            }
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+
+                background-color: #F4976C;
+                border: 3px solid black;
+                border-radius: 10px;
+            }
+        }
+    }
+}
+
+.about-me-footer, .create-story-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    margin-top: 60px;
+    height: 100px;
+    padding: 20px 0;
+
+    p {
+        color: white;
+        font-weight: 700;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.dashboard-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    width: 100%;
+    background-color: black;
+    margin-top: 60px;
+    height: 100px;
+    padding: 20px 0;
+
+    p {
+        color: white;
+        font-weight: 700;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.modal-content{
+    border: 3px solid black;
+
+    .modal-header {
+        padding-right: 43px;
+        padding-left: 43px;
+        font-weight: 700;
+        border: 0;
+    }
+
+    .modal-body {
+        padding: 0 40px 0 40px;
+        #imgContainer {
+            width: 414px;
+            height: 215px;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+    
+                background-color: #F4976C;
+                border: 3px solid black;
+                border-radius: 10px;
+            }
+        }
+
+        #detail-name {
+            font-weight: 900;
+            margin: 10px 0 0 0;
+        }
+
+        
+        #detail-description {
+            display: inline;
+            max-width: 400px;
+            margin-top: 10px;
+            font-family: 'Open Sans';
+        }
+        
+    }
+}
+

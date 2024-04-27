@@ -1,0 +1,104 @@
+//==========================
+// Sass
+// =========================
+@use "sass:map";
+
+
+// ==================================================
+// Bootstrap
+// ==================================================
+//
+// Functions Bootstrap
+//
+@import '~bootstrap/scss/functions';
+
+//customizing theme color
+$primary: #FBE8A6;
+$secondary: #303C6C;
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary
+);
+
+$custom-colors :(
+    'altOrange': #F4976C,
+);
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+// Variables Bootstrap
+//
+@import '~bootstrap/scss/variables';
+ 
+// Menerapkan/override variables Bootstrap apa pun di sini
+
+//custom navbar-brand
+$navbar-brand-font-size: 2rem;
+
+//custom nav-link
+$nav-link-font-weight: 700;
+$nav-link-color: none;
+$nav-link-hover-color: black;
+
+//custom modal
+$modal-content-border-radius: 10px;
+$modal-content-box-shadow-sm-up: none;
+$modal-content-box-shadow-xs: none;
+$modal-content-bg: #F4976C;
+
+//
+
+//custom form-control
+$input-border-width: 3px;
+$input-border-color: black;
+$input-border-radius: 10px;
+
+// Konfigurasi Bootstrap
+//
+@import '~bootstrap/scss/maps';
+@import '~bootstrap/scss/mixins';
+@import '~bootstrap/scss/root';
+@import '~bootstrap/scss/utilities';
+@import '~bootstrap/scss/reboot';
+ 
+//
+// Layouts dan components
+//
+@import '~bootstrap/scss/type';
+@import '~bootstrap/scss/images';
+@import '~bootstrap/scss/containers';
+@import '~bootstrap/scss/grid';
+ 
+@import '~bootstrap/scss/helpers';
+ 
+// Komponen-Komponen
+@import '~bootstrap/scss/buttons';
+ 
+//
+// Utilities API untuk menghasilkan utility classes
+//
+@import '~bootstrap/scss/utilities/api';
+
+@import '~bootstrap/scss/tables';
+@import '~bootstrap/scss/buttons';
+@import '~bootstrap/scss/forms';
+@import '~bootstrap/scss/transitions';
+@import '~bootstrap/scss/dropdown';
+@import '~bootstrap/scss/nav';
+@import '~bootstrap/scss/navbar'; // Requires nav
+@import '~bootstrap/scss/card';
+@import '~bootstrap/scss/close';
+@import '~bootstrap/scss/modal';
+ 
+//
+// Tambahkan custom code di sini
+//
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+:root {
+    --bs-body-font-family: "Playfair Display", serif;
+}
+
+

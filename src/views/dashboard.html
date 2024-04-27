@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= htmlWebpackPlugin.options.title %> | Story App</title>
+</head>
+<body>
+    <header>
+        <custom-navigation-dashboard></custom-navigation-dashboard>
+    </header>
+    <main>
+        <poster-texts></poster-texts>
+        <div id="content" class="container-xxl d-flex flex-column align-items-center">
+            <div id="containerTitle">
+                <p id="titleStories">Stories</p>
+            </div>
+            <story-list id="story-list"></story-list>
+        </div>
+
+        <!-- Modal -->
+        <modal-detail class="modal fade" id="modalDetail" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        
+        </modal-detail>
+    </main>
+    <footer class="dashboard-footer">
+        <locale-picker></locale-picker>
+        <custom-footer></custom-footer>
+    </footer>
+</body>
+</html>

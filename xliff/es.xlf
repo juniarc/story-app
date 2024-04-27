@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+<file target-language="es" source-language="en" original="lit-localize-inputs" datatype="plaintext">
+<body>
+<trans-unit id="se957aac89298c890">
+  <source>About Me</source>
+  <target>Acerca de mí</target>
+</trans-unit>
+<trans-unit id="h3900c145cc16a364">
+  <source>My name is <x id="0" equiv-text="&lt;span class=&quot;fw-bold&quot;&gt;"/>Cahya Juniar Syam.<x id="1" equiv-text="&lt;/span&gt;"/></source>
+  <target>Mi nombre es <x id="0" equiv-text="&lt;span class=&quot;fw-bold&quot;&gt;"/>Cahya Juniar Syam.<x id="1" equiv-text="&lt;/span&gt;"/></target>
+</trans-unit>
+<trans-unit id="h194ad38355bc1869">
+  <source>I was born in <x id="0" equiv-text="&lt;span class=&quot;fw-bold&quot;&gt;"/>Garut, June 17 2000.<x id="1" equiv-text="&lt;span class=&quot;fw-bold&quot;&gt;&lt;/span&gt;&lt;/span&gt;"/></source>
+  <target>nací en <x id="0" equiv-text="&lt;span class=&quot;fw-bold&quot;&gt;"/>Garut, junio 17 2000.<x id="1" equiv-text="&lt;span class=&quot;fw-bold&quot;&gt;&lt;/span&gt;&lt;/span&gt;"/></target>
+</trans-unit>
+<trans-unit id="s18ce3e8d90e2df76">
+  <source>This website was created to fulfill submission on Dicoding Intermediate Front-end Web Developer. Thank you for visiting this website.</source>
+  <targetEste sitio web fue creado para cumplir con el envío de Dicoding Intermediate Front-end Web Developer. Gracias por visitar esta página web.></target>
+</trans-unit>
+<trans-unit id="sdcc4c131e03049b4">
+  <source>Create Story</source>
+  <target>Crear historia</target>
+</trans-unit>
+<trans-unit id="sf6dd6fff0d73c9b7">
+  <source>Story Detail</source>
+  <target>Detalle de la historia</target>
+</trans-unit>
+<trans-unit id="s12b61d47ebe90f26">
+  <source>Write Stories, Share Inspiration: Discover, Share and Be Inspired by Every Story Here!</source>
+  <target>Escriba historias, comparta inspiración: ¡descubra, comparta e inspírese con cada historia aquí!</target>
+</trans-unit>
+<trans-unit id="s264c47fa0ee90c13">
+  <source>We invite you to explore, immerse and inspire each other through the power of words and images.</source>
+  <target>Los invitamos a explorar, sumergirse e inspirarse mutuamente a través del poder de las palabras y las imágenes.</target>
+</trans-unit>
+<trans-unit id="s5b979683d1816069">
+  <source>Select language : </source>
+  <target>Seleccione el idioma :</target>
+</trans-unit>
+</body>
+</file>
+</xliff>

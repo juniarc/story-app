@@ -1,0 +1,66 @@
+@mixin form-format {
+    width: 480px;
+
+    font-family: 'Open Sans';
+}
+
+header {
+    p {
+        margin: 0;
+    }
+}
+#cs-container{
+    margin-top: 54px;
+    
+    width: 560px;
+    height: 424px;
+
+    border: 3px solid black;
+    border-radius: 10px;
+
+    box-shadow: 7px 8px black;
+
+    padding: 20px 40px;
+    #form-title {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    form {
+        #input-description {
+            @include form-format;
+            height: 174px;
+
+            padding: 20px;
+        }
+
+        #input-img {
+            @include form-format;
+
+            padding: 5px 20px;
+
+            margin-top: 20px;
+        }
+
+        #form-button {
+            width: 192px;
+            height: 42px;
+            margin-top: 20px;
+
+            border: 3px solid black;
+            border-radius: 10px;
+            box-shadow: 6px 6px black;
+
+            background-color: #D1D1D1;
+
+            font-weight: 700;
+
+            cursor: pointer;
+
+            &:hover {
+                background-color: #303C6C;
+                color: white;
+            }
+        }
+    }
+}
